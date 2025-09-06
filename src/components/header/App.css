@@ -29,7 +29,7 @@
   gap: clamp(1rem, 8vw, 7rem);
 
   position: relative;
-  animation: hardric 5s ease-in-out 0s 1 normal none;
+  animation: hardric 2s ease-in-out 0s 1 normal none;
   label {
     transition: 0.1s;
   }
