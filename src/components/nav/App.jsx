@@ -1,4 +1,5 @@
 import "./App.css";
+import github from "./github.svg";
 
 function MenuContent() {
   const menuContent = document.getElementById("menu-content");
@@ -40,6 +41,11 @@ function App() {
           <li>
             <a href="#">
               <p>Projects</p>
+            </a>
+          </li>
+          <li className="github-link">
+            <a href="https://github.com/awayanrichardjr">
+              <img src={github} alt="github" />
             </a>
           </li>
           <li>

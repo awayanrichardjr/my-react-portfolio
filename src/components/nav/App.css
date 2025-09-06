@@ -11,7 +11,7 @@
   width: 100%;
   z-index: 1000;
 
-  animation: navigation 2s ease-in-out 0s 1 normal none;
+  animation: navigation 1s ease-in-out 0s 1 normal none;
 }
 @keyframes navigation {
   from {
@@ -69,7 +69,7 @@
   }
 }
 
-.navigation :where(.links) li:nth-child(4) a {
+.navigation :where(.links) li:nth-child(5) a {
   background-color: var(--sidebar-bg);
   border-radius: 2rem;
   padding: 0 0 0 1rem;
@@ -106,4 +106,15 @@
 }
 .navigation :where(.links) li:nth-child(4) a:hover span {
   font-variation-settings: "FILL" 1;
+}
+
+.navigation :where(.github-link) a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation :where(.github-link) img {
+  aspect-ratio: 1/1;
+  width: 25px;
+  border-radius: 50%;
 }
