@@ -9,6 +9,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
 
   animation: navigation 2s ease-in-out 0s 1 normal none;
 }
@@ -66,4 +67,43 @@
       background-color: var(--sidebar-bg);
     }
   }
+}
+
+.navigation :where(.links) li:nth-child(4) a {
+  background-color: var(--sidebar-bg);
+  border-radius: 2rem;
+  padding: 0 0 0 1rem;
+
+  align-items: center;
+  gap: 0.2rem;
+  overflow: hidden;
+
+  p {
+    animation: liChild4 5s ease-in-out 0s 1 normal none;
+  }
+  span {
+    border: 1px solid var(--border-color);
+    background-color: var(--sidebar-bg);
+    border-radius: 50%;
+    padding: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    z-index: 1;
+  }
+}
+@keyframes liChild4 {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 3.4rem;
+    opacity: 1;
+  }
+}
+.navigation :where(.links) li:nth-child(4) a:hover span {
+  font-variation-settings: "FILL" 1;
 }

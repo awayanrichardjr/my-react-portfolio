@@ -28,16 +28,25 @@ function App() {
         {/* links */}
         <ul className="links">
           <li>
-            <a href="#">Home</a>
+            <a href="#">
+              <p>Home</p>
+            </a>
           </li>
           <li>
-            <a href="#">Expertise</a>
+            <a href="#">
+              <p>Expertise</p>
+            </a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="#">
+              <p>Projects</p>
+            </a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">
+              <p>Contact</p>
+              <span className="material-symbols-rounded">call</span>
+            </a>
           </li>
         </ul>
         {/* menu links */}
@@ -51,16 +60,24 @@ function App() {
           </li>
           <div className="menu-content" id="menu-content">
             <li>
-              <a href="#">Home</a>
+              <a href="#">
+                <p>Home</p>
+              </a>
             </li>
             <li>
-              <a href="#">Expertise</a>
+              <a href="#">
+                <p>Expertise</p>
+              </a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="#">
+                <p>Projects</p>
+              </a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#">
+                <p>Contact</p>
+              </a>
             </li>
           </div>
         </ul>

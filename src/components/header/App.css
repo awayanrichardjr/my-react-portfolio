@@ -23,7 +23,7 @@
   gap: clamp(1rem, 8vw, 7rem);
 
   position: relative;
-  animation: hardric 2s ease-in-out 0s 1 normal none;
+  animation: hardric 5s ease-in-out 0s 1 normal none;
   label {
     transition: 0.1s;
   }
@@ -31,11 +31,13 @@
 
 @keyframes hardric {
   from {
-    transform: translateY(20px);
+    /* transform: translateY(20px); */
+    gap: clamp(1rem, 8vw, 1rem);
     opacity: 0;
   }
   to {
-    transform: translateY(0);
+    /* transform: translateY(0); */
+    gap: clamp(1rem, 8vw, 7rem);
   }
 }
 
@@ -47,6 +49,7 @@
   position: absolute;
   bottom: 5rem;
   left: 5rem;
+  z-index: 999;
 
   animation: btns 2s ease-in-out 0s 1 normal none;
   button {
