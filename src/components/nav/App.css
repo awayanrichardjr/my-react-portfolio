@@ -9,6 +9,17 @@
   top: 0;
   left: 0;
   width: 100%;
+
+  animation: navigation 2s ease-in-out 0s 1 normal none;
+}
+@keyframes navigation {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
 .navigation :where(.logo) a {

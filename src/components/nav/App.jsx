@@ -21,7 +21,7 @@ function App() {
           <li>
             <a href="#">
               <span className="material-symbols-rounded">home_app_logo</span>
-              <p>HARDRIC</p>
+              <p className="audiowide-regular">HARDRIC</p>
             </a>
           </li>
         </ul>
@@ -29,9 +29,6 @@ function App() {
         <ul className="links">
           <li>
             <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
           </li>
           <li>
             <a href="#">Expertise</a>
@@ -55,9 +52,6 @@ function App() {
           <div className="menu-content" id="menu-content">
             <li>
               <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
             </li>
             <li>
               <a href="#">Expertise</a>

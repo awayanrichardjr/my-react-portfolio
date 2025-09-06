@@ -1,9 +1,10 @@
 .header {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   height: 100vh;
-  overflow: hidden;
+
+  padding: 1rem 2rem;
 }
 
 /* .header :where(.bg) {
@@ -11,3 +12,99 @@
   filter: brightness(50%);
   z-index: -1;
 } */
+
+.header :where(.heading1) {
+  font-size: clamp(16px, 8vw, 84px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  gap: clamp(1rem, 8vw, 7rem);
+
+  position: relative;
+  animation: hardric 2s ease-in-out 0s 1 normal none;
+  label {
+    transition: 0.1s;
+  }
+}
+
+@keyframes hardric {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.header :where(.btns) {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+
+  animation: btns 2s ease-in-out 0s 1 normal none;
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    background-color: transparent;
+    -webkit-backdrop-filter: blur();
+    backdrop-filter: blur(5px);
+
+    border: 1px solid var(--border-color);
+    border-radius: 0.3rem;
+    padding: 1rem 2rem;
+    white-space: nowrap;
+
+    transition: 0.2s;
+    span {
+      font-size: 16px;
+    }
+  }
+  button:hover {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes btns {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.header :where(.description) {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+
+  max-width: 400px;
+
+  animation: description 2s ease-in-out 0s 1 normal none;
+  p {
+    color: grey;
+  }
+  hr {
+    border-color: grey;
+  }
+}
+@keyframes description {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+  }
+}
