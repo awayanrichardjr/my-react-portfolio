@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-// import './index.css'
+// import './style/index.css'
 import "./style/global/global.css";
 import "./style/global/root.css";
 import "./style/global/fonts.css";
