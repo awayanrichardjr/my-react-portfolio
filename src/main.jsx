@@ -11,11 +11,13 @@ import "./style/global/fonts.css";
 // componentes
 import Nav from "./components/nav/App.jsx";
 import Header from "./components/header/App.jsx";
+import About from "./components/about/App.jsx";
 
 const view = (
   <StrictMode>
     <Nav />
     <Header />
+    <About />
   </StrictMode>
 );
 

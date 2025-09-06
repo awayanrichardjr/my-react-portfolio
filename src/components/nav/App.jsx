@@ -29,7 +29,7 @@ function App() {
         {/* links */}
         <ul className="links">
           <li>
-            <a href="#">
+            <a href="#about">
               <p>About me</p>
             </a>
           </li>
@@ -70,7 +70,7 @@ function App() {
           </li>
           <div className="menu-content" id="menu-content">
             <li>
-              <a href="#">
+              <a href="#about">
                 <p>About me</p>
               </a>
             </li>
