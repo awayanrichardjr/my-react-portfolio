@@ -42,7 +42,11 @@
 
 .navigation :where(.links) a {
   display: flex;
-  padding-block: 1rem;
+  transition: 0.2s;
+}
+
+.navigation :where(.links) a:hover {
+  color: orangered;
 }
 
 .navigation :where(.menu-links) {
@@ -60,13 +64,17 @@
       display: flex;
       align-items: center;
       justify-content: start;
-      padding: 1rem 2rem;
+
+      background-color: var(--sidebar-bg);
+      border-radius: 50%;
       white-space: nowrap;
     }
     .menu-content {
       display: none;
+
       position: absolute;
       right: 0;
+
       background-color: var(--sidebar-bg);
     }
   }
@@ -75,20 +83,21 @@
 .navigation :where(.links) li:nth-child(5) a {
   background-color: var(--sidebar-bg);
   border-radius: 2rem;
-  padding: 0 0 0 1rem;
+  padding: 0 0 0 0.5rem;
 
   align-items: center;
   gap: 0.2rem;
   overflow: hidden;
-
+  transition: 0.2s;
   p {
     animation: liChild4 2s ease-in-out 0s 1 normal none;
   }
   span {
     border: 1px solid var(--border-color);
-    background-color: var(--sidebar-bg);
+    background-color: var(--border-color);
+    color: var(--text-hover);
     border-radius: 50%;
-    padding: 0.5rem;
+    padding: 0.2rem;
 
     display: flex;
     align-items: center;
@@ -107,8 +116,9 @@
     opacity: 1;
   }
 }
-.navigation :where(.links) li:nth-child(4) a:hover span {
+.navigation :where(.links) li:nth-child(5) a:hover span {
   font-variation-settings: "FILL" 1;
+  color: orangered;
 }
 
 .navigation :where(.github-link) a {
