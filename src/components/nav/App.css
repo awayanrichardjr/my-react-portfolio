@@ -29,6 +29,8 @@
   gap: 0.3rem;
   span {
     font-variation-settings: "FILL" 1;
+
+    color: orangered;
   }
 }
 
@@ -59,6 +61,7 @@
       align-items: center;
       justify-content: start;
       padding: 1rem 2rem;
+      white-space: nowrap;
     }
     .menu-content {
       display: none;
@@ -112,9 +115,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .navigation :where(.github-link) img {
   aspect-ratio: 1/1;
   width: 25px;
   border-radius: 50%;
+}
+
+.navigation :where(.github-link):hover a::after {
+  content: "Github";
+  position: absolute;
+  background-color: var(--sidebar-bg);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  margin-top: 5rem;
 }

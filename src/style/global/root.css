@@ -13,8 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
 
   --sidebar-bg: #213547;
-  --border-color: #f9f9f9;
+  --border-color: #ffffffde;
   --text-color: #ffffffde;
+  --text-hover: #242424;
   a {
     color: rgba(255, 255, 255, 0.87);
   }
@@ -30,7 +31,8 @@
     background-color: #ffffff;
     --sidebar-bg: #d8edff;
     --border-color: #242424;
-    --text-color: #213547;
+    --text-color: #242424;
+    --text-hover: #ffffffde;
     a {
       color: #213547;
     }

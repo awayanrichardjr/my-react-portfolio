@@ -1,5 +1,5 @@
 import "./App.css";
-// import bg from "./bg.jpg";
+// import bg from "./bg2.jpg";
 
 function App() {
   return (

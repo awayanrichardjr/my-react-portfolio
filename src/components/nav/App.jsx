@@ -44,7 +44,11 @@ function App() {
             </a>
           </li>
           <li className="github-link">
-            <a href="https://github.com/awayanrichardjr">
+            <a
+              href="https://github.com/awayanrichardjr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={github} alt="github" />
             </a>
           </li>
