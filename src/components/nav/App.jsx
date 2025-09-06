@@ -23,7 +23,7 @@ function App() {
       <nav className="navigation">
         <ul className="logo">
           <li>
-            <a href="#">
+            <a href="#home">
               <span className="material-symbols-rounded">home_app_logo</span>
               <p className="audiowide-regular">HARDRIC</p>
             </a>
@@ -37,12 +37,12 @@ function App() {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#expertise">
               <p>Expertise</p>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#project">
               <p>Projects</p>
             </a>
           </li>
@@ -56,7 +56,7 @@ function App() {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#contact">
               <p>Contact</p>
               <span className="material-symbols-rounded">call</span>
             </a>
@@ -78,17 +78,17 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#expertise">
                 <p>Expertise</p>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#project">
                 <p>Projects</p>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#contact">
                 <p>Contact</p>
               </a>
             </li>

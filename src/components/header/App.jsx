@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header className="header">
+      <header className="header" id="home">
         {/* <img className="bg" src={bg} alt="bg" /> */}
         <h1 className="heading1 audiowide-regular">
           <label htmlFor="">H</label>
