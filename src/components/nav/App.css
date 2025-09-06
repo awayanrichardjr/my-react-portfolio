@@ -64,6 +64,9 @@
   .navigation :where(.menu-links) {
     display: block;
     position: relative;
+    li:nth-child(1):hover span {
+      color: orangered;
+    }
     li a {
       display: flex;
       align-items: center;
@@ -87,6 +90,10 @@
       background-color: var(--sidebar-bg);
       a {
         padding: 1rem 2rem;
+        transition: 0.2s;
+      }
+      a:hover {
+        color: orangered;
       }
     }
   }
