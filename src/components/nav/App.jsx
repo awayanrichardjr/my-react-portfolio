@@ -6,11 +6,14 @@ function MenuContent() {
   const spanIcon = document.getElementById("span-icon").innerText;
 
   if (spanIcon === "menu") {
-    menuContent.style.display = "block";
     document.getElementById("span-icon").innerText = "close";
+
+    menuContent.style.width = "150px";
+    menuContent.style.opacity = "1";
   } else {
-    menuContent.style.display = "none";
     document.getElementById("span-icon").innerText = "menu";
+    menuContent.style.opacity = "0";
+    menuContent.style.width = "0";
   }
 }
 
