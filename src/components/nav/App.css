@@ -99,7 +99,7 @@
   }
 }
 
-.navigation :where(.links) li:nth-child(5) a {
+.navigation :where(.links) li:nth-child(6) a {
   background-color: var(--sidebar-bg);
   border-radius: 2rem;
   padding: 0 0 0 0.5rem;
@@ -135,7 +135,7 @@
     opacity: 1;
   }
 }
-.navigation :where(.links) li:nth-child(5) a:hover span {
+.navigation :where(.links) li:nth-child(6) a:hover span {
   font-variation-settings: "FILL" 1;
   color: orangered;
 }
