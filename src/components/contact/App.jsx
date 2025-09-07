@@ -15,9 +15,18 @@ function App() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
           <ul className="details">
-            <li>Davao City, 8000, Philippines</li>
-            <li>awayanrichardjr@gmail.com</li>
-            <li>0906-587-6602</li>
+            <li>
+              <span className="material-symbols-rounded">location_on</span>
+              <p>Davao City, 8000, Philippines</p>
+            </li>
+            <li>
+              <span className="material-symbols-rounded">email</span>
+              <p>awayanrichardjr@gmail.com</p>
+            </li>
+            <li>
+              <span className="material-symbols-rounded">call</span>
+              <p>0906-587-6602</p>
+            </li>
           </ul>
         </div>
       </section>
