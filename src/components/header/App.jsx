@@ -16,11 +16,13 @@ function App() {
           <label htmlFor="">C</label>
         </h1>
         <div className="btns">
-          <button className="about-me">About me</button>
-          <button className="download-cv bg-btn">
+          <a href="#about" className="about-me">
+            About me
+          </a>
+          <a href="#" className="download-cv bg-btn">
             <span className="material-symbols-rounded">download</span>
             <p>Donwload CV</p>
-          </button>
+          </a>
         </div>
         <div className="description">
           <h2>Hi there! I am Richard</h2>

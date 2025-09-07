@@ -62,7 +62,7 @@
   z-index: 999;
 
   animation: btns 2s ease-in-out 0s 1 normal none;
-  button {
+  a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@
       font-size: 16px;
     }
   }
-  button:hover {
+  a:hover {
     transform: translateY(-2px);
   }
   .about-me:hover {
