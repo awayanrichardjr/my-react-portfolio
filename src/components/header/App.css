@@ -150,6 +150,9 @@
   .header :where(.btns) {
     left: auto;
     bottom: 9rem;
+    a {
+      font-size: 10px;
+    }
   }
 
   .header :where(.description) {
