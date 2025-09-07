@@ -15,6 +15,7 @@ import About from "./components/about/App.jsx";
 import Expertise from "./components/expertise/App.jsx";
 import Project from "./components/project/App.jsx";
 import Contact from "./components/contact/App.jsx";
+import Footer from "./components/footer/App.jsx";
 
 const view = (
   <StrictMode>
@@ -24,6 +25,7 @@ const view = (
     <Expertise />
     <Project />
     <Contact />
+    <Footer />
   </StrictMode>
 );
 

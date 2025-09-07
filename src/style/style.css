@@ -1,0 +1,27 @@
+/* glass background */
+.glass-bg {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur();
+  backdrop-filter: blur(5px);
+}
+
+/* darkmode */
+:root {
+  --primary-color: white;
+  --secondary-color: lightgrey;
+  --text-color: black;
+
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-color: black;
+    --secondary-color: lightgrey;
+    --text-color: white;
+
+    color: var(--text-color);
+    background-color: var(--primary-color);
+  }
+}

@@ -70,7 +70,7 @@ function App() {
         {/* menu links */}
         <ul className="menu-links">
           <li>
-            <a href="#" onClick={MenuContent}>
+            <a onClick={MenuContent}>
               <span className="material-symbols-rounded" id="span-icon">
                 menu
               </span>
