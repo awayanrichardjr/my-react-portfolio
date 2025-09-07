@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 
@@ -19,14 +20,14 @@
   z-index: -1;
 } */
 
-.header :where(.heading1) {
+.header :where(.hardric) {
   font-size: clamp(1px, 8vw, 80px);
 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row nowrap;
-  gap: clamp(1rem, 8vw, 7rem);
+  gap: clamp(1px, 8vw, 7rem);
 
   position: relative;
   animation: hardric 2s ease-in-out 0s 1 normal none;

@@ -6,7 +6,7 @@ function App() {
     <>
       <header className="header" id="home">
         {/* <img className="bg" src={bg} alt="bg" /> */}
-        <h1 className="heading1 audiowide-regular">
+        <h1 className="hardric audiowide-regular">
           <label htmlFor="">H</label>
           <label htmlFor="">A</label>
           <label htmlFor="">R</label>

@@ -1,5 +1,6 @@
 .about {
   height: 100vh;
+  padding: 2rem;
 
   display: flex;
   flex-flow: column nowrap;
@@ -10,16 +11,24 @@
 
 .about :where(.profile) {
   aspect-ratio: 1/1;
-  width: 300px;
+  width: 250px;
   object-fit: contain;
 
   border-radius: 50%;
-  /* padding: 0.1rem;
-  background-color: var(--border-color); */
 }
 
 .about :where(.profile-name) {
   display: flex;
+  flex-flow: row wrap;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
+  /* background-color: blue; */
+}
+
+.about :where(.name-description) {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 500px;
+  /* background-color: red; */
 }

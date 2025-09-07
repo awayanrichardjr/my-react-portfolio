@@ -18,6 +18,13 @@ function App() {
           <div className="name-description">
             <h1>Richard Dumael Awayan Jr.</h1>
             <p>Frontend Developer</p>
+            <br />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+              delectus sequi maxime, hic quam velit quo, expedita facere
+              doloribus repellat ratione possimus esse unde ipsum repellendus
+              tenetur corrupti facilis quasi?
+            </p>
           </div>
         </div>
       </section>
