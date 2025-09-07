@@ -20,7 +20,7 @@
 } */
 
 .header :where(.heading1) {
-  font-size: clamp(16px, 8vw, 84px);
+  font-size: clamp(1px, 8vw, 80px);
 
   display: flex;
   align-items: center;
@@ -117,6 +117,7 @@
   p {
     color: grey;
     font-size: 10px;
+    text-align: end;
   }
   hr {
     border: 1px solid grey;
@@ -142,5 +143,23 @@
   .header :where(.description) {
     right: 2rem;
     bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .header :where(.btns) {
+    left: auto;
+    bottom: 9rem;
+  }
+
+  .header :where(.description) {
+    right: auto;
+    bottom: 19rem;
+    text-align: center;
+    white-space: nowrap;
+    font-size: clamp(1px, 8px, 16px);
+    p {
+      text-align: center;
+    }
   }
 }
