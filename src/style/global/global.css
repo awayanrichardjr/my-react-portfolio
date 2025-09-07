@@ -31,10 +31,3 @@ a {
 button {
   cursor: pointer;
 }
-
-@media screen and (max-width: 426px) {
-  html,
-  .material-symbols-rounded {
-    font-size: 10px;
-  }
-}
