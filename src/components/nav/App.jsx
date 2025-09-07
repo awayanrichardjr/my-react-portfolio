@@ -1,5 +1,5 @@
 import "./App.css";
-import github from "./github.svg";
+import github from "../assets/cloud/github.svg";
 
 function MenuContent() {
   const menuContent = document.getElementById("menu-content");

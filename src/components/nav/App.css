@@ -150,6 +150,7 @@
   aspect-ratio: 1/1;
   width: 25px;
   border-radius: 50%;
+  background-color: white;
 }
 
 .navigation :where(.github-link):hover a::after {
