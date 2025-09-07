@@ -7,15 +7,29 @@
   justify-content: center;
 }
 
-/* .contact :where(.map) {
-  border: none;
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
-  height: 300px;
-  width: 500px;
-} */
-
 .contact :where(.container) {
   display: flex;
-  flex-flow: row-reverse nowrap;
+  flex-flow: row-reverse wrap;
   gap: 1rem;
+  align-items: start;
+  justify-content: center;
+  .map {
+    flex-grow: 1;
+    border: none;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    width: 500px;
+  }
+  ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    flex-grow: 1;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact :where(.container) .map {
+    width: 300px;
+  }
 }
