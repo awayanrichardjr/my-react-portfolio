@@ -132,3 +132,10 @@
     transform: translateX(0);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .header :where(.btns) {
+    left: 2rem;
+    bottom: 2rem;
+  }
+}
