@@ -4,21 +4,28 @@ function App() {
   return (
     <>
       <nav className="navigation">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#expertise">Expertise</a>
-        </li>
-        <li>
-          <a href="#project">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contct</a>
-        </li>
+        <ul className="logo">
+          <li>
+            <a href="#home">HARDRIC</a>
+          </li>
+        </ul>
+        <ul className="links">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#expertise">Expertise</a>
+          </li>
+          <li>
+            <a href="#project">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
       </nav>
     </>
   );

@@ -1,7 +1,26 @@
 .header {
   height: 100vh;
+  padding: 2rem;
 
   display: flex;
-  align-items: center;
+  flex-flow: column nowrap;
+  align-items: start;
   justify-content: center;
+
+  /* buttons */
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  .buttons :where(.about-me) {
+    padding: 0.5rem;
+  }
+  .buttons :where(.download-cv) a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+
+    padding: 0.5rem;
+  }
 }

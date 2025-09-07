@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: var(--bg);
+
+  /* a */
+  a {
+    display: flex;
+    padding: 1rem 2rem;
+    color: var(--text-color);
+  }
+
+  /* links */
+  .links {
+    display: flex;
+    align-items: center;
+  }
+}
