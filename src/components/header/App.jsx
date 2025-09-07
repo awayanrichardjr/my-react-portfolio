@@ -18,8 +18,8 @@ function App() {
         <div className="btns">
           <button className="about-me">About me</button>
           <button className="download-cv bg-btn">
-            <p>Donwload CV</p>
             <span className="material-symbols-rounded">download</span>
+            <p>Donwload CV</p>
           </button>
         </div>
         <div className="description">
