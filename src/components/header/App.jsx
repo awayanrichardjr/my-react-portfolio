@@ -23,13 +23,8 @@ function App() {
           </button>
         </div>
         <div className="description">
-          <h2>I am Richard Dumael Awayan Jr.</h2>
+          <h2>Hi there! I am Richard</h2>
           <p>Frontend Developer</p>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
-            perspiciatis.
-          </p>
         </div>
       </header>
     </>
