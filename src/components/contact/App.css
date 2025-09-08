@@ -1,7 +1,40 @@
 .contact {
   min-height: 100vh;
+  padding: 2rem;
 
   display: flex;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+}
+
+/* container */
+.contact :where(.container) {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* contact details */
+.contact :where(.contact-details) {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+}
+
+.contact :where(.contact-details) li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* map */
+.contact :where(.map) {
+  height: 300px;
+  width: 500px;
+  border: none;
+  box-shadow: var(--map-box-shadow);
 }

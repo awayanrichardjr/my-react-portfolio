@@ -21,6 +21,7 @@
   --border-color: #f8f9fa;
   --subject-color: orangered;
   --download-btn-text-color: var(--text-color);
+  --map-box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 1);
   a {
     color: var(--text-color);
   }
@@ -40,6 +41,7 @@
     --border-color: #222222;
     --subject-color: tomato;
     --download-btn-text-color: var(--text-color-reverse);
+    --map-box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.2);
     a {
       color: var(--text-color);
     }
