@@ -5,11 +5,11 @@ function App() {
   return (
     <>
       <section className="about" id="about">
-        <h1>About me</h1>
+        <h5>About me</h5>
         <div className="container">
           <img src={profilePic} alt="profile-pic" />
           <div className="profile-name">
-            <h1>Richard Dumael Awayan Jr.</h1>
+            <h5>Richard Dumael Awayan Jr.</h5>
             <p>Frontend Developer</p>
             <br />
             <p>

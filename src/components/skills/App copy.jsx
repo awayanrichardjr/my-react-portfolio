@@ -95,11 +95,11 @@ function App() {
     <>
       {/* <Importsss /> */}
       <section className="about" id="about">
-        {/* <h1>About me</h1> */}
+        {/* <h5>About me</h5> */}
         <div className="profile-name">
           <img src={me} alt="me" className="profile" />
           <div className="name-description">
-            <h1>Richard Dumael Awayan Jr.</h1>
+            <h5>Richard Dumael Awayan Jr.</h5>
             <p>Frontend Developer</p>
           </div>
         </div>

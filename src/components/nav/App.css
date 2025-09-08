@@ -33,4 +33,11 @@
     font-variation-settings: "FILL" 1;
     color: var(--subject-color);
   }
+  .logo :where(h6) {
+    font-weight: 600;
+    b {
+      color: var(--subject-color);
+      margin-inline-start: 2px;
+    }
+  }
 }

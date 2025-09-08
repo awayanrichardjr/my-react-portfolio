@@ -7,8 +7,10 @@ function App() {
         <ul className="logo">
           <li>
             <a href="#home">
-              <span className="material-symbols-rounded">home_app_logo</span>
-              <h3>HARDRIC</h3>
+              {/* <span className="material-symbols-rounded">home_app_logo</span> */}
+              <h6>
+                HARDRIC<b>.</b>
+              </h6>
             </a>
           </li>
         </ul>

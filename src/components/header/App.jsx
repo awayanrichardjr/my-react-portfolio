@@ -6,12 +6,12 @@ function App() {
     <>
       <section className="header" id="home">
         <div className="container">
-          <h1 className="introduction">
+          <h5 className="introduction">
             Hi there! <br /> I am Richard
-          </h1>
+          </h5>
           {/* <br /> */}
-          <h1 className="profession">Frontend Developer</h1>
-          <p>
+          <h5 className="profession">Frontend Developer</h5>
+          <p className="description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
             tenetur? Qui expedita modi similique odio iusto aut magnam
             explicabo, nobis voluptate, quos illo molestias? Tempore hic

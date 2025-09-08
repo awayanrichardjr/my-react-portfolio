@@ -21,3 +21,10 @@
   width: 100px;
   object-fit: contain;
 }
+
+.skills :where(.container) .skills-list > li {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}

@@ -19,6 +19,9 @@
     justify-content: center;
   }
 
+  .container :where(.description) {
+    color: grey;
+  }
   .container :where(.profile-pic) {
     aspect-ratio: 1/1;
     object-fit: cover;

@@ -11,7 +11,7 @@ function App() {
             <thead>
               <tr>
                 <th>
-                  <h1>Expertise</h1>
+                  <h5>Expertise</h5>
                 </th>
               </tr>
             </thead>
@@ -20,83 +20,28 @@ function App() {
             <tbody>
               <tr>
                 <td>
-                  <h1>Core Website Development</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Itaque, eos.
+                  <h6>Core Website Development</h6>
+                  <p className="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis, dignissimos?
                   </p>
+                  <a href="#">
+                    <span className="material-symbols-rounded">link</span>
+                    <p>Link</p>
+                  </a>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <h1>Web Application Development</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Itaque, eos.
+                  <h6>Optimization & Maintenance</h6>
+                  <p className="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Architecto, quae.
                   </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h1>UI/UX Implementation</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Itaque, eos.
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h1>API Integration</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Itaque, eos.
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h1>Optimization & Maintenance</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Itaque, eos.
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h1>Accessibility & Compliance</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Itaque, eos.
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h1>E-commerce Development</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Itaque, eos.
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h1>Testing & Quality Assurance</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Itaque, eos.
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h1>Deployment & Support</h1>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Itaque, eos.
-                  </p>
+                  <a href="#">
+                    <span className="material-symbols-rounded">link</span>
+                    <p>Link</p>
+                  </a>
                 </td>
               </tr>
             </tbody>
@@ -108,3 +53,6 @@ function App() {
 }
 
 export default App;
+
+// frontend services link:
+// https://chatgpt.com/share/68bee63a-dcac-8008-8087-480a0da20688
