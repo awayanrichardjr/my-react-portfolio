@@ -9,7 +9,6 @@ function App() {
           <h5 className="introduction">
             Hi there! <br /> I am Richard
           </h5>
-          {/* <br /> */}
           <h5 className="profession">Frontend Developer</h5>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
@@ -19,7 +18,11 @@ function App() {
           </p>
           <br />
           <div className="buttons">
-            <button className="about-me-btn">About me</button>
+            <button className="about-me-btn">
+              <a href="#about">
+                <p>About me</p>
+              </a>
+            </button>
             <button className="download-btn">
               <a href="#">
                 <span className="material-symbols-rounded">download</span>

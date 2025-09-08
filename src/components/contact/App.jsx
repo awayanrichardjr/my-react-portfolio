@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <section className="contact" id="contact">
-        <h5>Contact</h5>
+        <h5>Get in touch!</h5>
         <div className="container">
           {/**
            *
