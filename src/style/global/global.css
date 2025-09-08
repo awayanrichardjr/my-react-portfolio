@@ -63,3 +63,26 @@ h1 {
   font-weight: normal;
   line-height: normal;
 }
+
+.about,
+.contact,
+.expertise,
+.footer,
+.header,
+.project,
+.skills {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

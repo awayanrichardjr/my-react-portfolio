@@ -37,7 +37,6 @@
     color: grey;
   }
 }
-
 .expertise :where(table) td > a {
   display: flex;
   align-items: center;
