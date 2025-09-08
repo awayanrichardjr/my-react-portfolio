@@ -2,6 +2,24 @@
   height: 100vh;
 
   display: flex;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+
+  table {
+    border-collapse: collapse;
+  }
+  table :where(tbody) {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+
+    padding: 1rem;
+  }
+  table :where(td) {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+
+    width: 200px;
+  }
 }

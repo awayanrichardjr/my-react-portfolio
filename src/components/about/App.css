@@ -2,6 +2,22 @@
   height: 100vh;
 
   display: flex;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .container :where(img) {
+    aspect-ratio: 1/1;
+    width: 350px;
+    object-fit: contain;
+  }
+  .container :where(.profile-name) {
+    width: 500px;
+    padding: 1rem;
+  }
 }

@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #ffffffde;
-  background-color: #242424;
+  color: white;
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,17 +13,21 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* variables */
-  --text-color: #ffffffde;
-  --bg-color: #242424;
+  --text-color: white;
+  --bg-color: #000000;
+  --primary-color: lightgrey;
+  --secondary-color: #1f1f1f;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: black;
+    background-color: white;
 
     /* variables */
-    --text-color: #213547;
-    --bg-color: #ffffffde;
+    --text-color: black;
+    --bg-color: white;
+    --primary-color: lightgrey;
+    --secondary-color: #1f1f1f;
   }
 }
