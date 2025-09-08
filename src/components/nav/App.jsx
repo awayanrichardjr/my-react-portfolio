@@ -6,7 +6,10 @@ function App() {
       <nav className="navigation">
         <ul className="logo">
           <li>
-            <a href="#home">HARDRIC</a>
+            <a href="#home">
+              <span className="material-symbols-rounded">home_app_logo</span>
+              <h3>HARDRIC</h3>
+            </a>
           </li>
         </ul>
         <ul className="links">

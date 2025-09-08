@@ -13,13 +13,24 @@
   /* a */
   a {
     display: flex;
+    align-items: center;
+    justify-content: center;
+
     padding: 1rem 2rem;
-    color: var(--text-color);
   }
 
   /* links */
   .links {
     display: flex;
     align-items: center;
+    justify-content: center;
+  }
+  .links :where(a):hover {
+    color: var(--subject-color);
+  }
+
+  .logo :where(span) {
+    font-variation-settings: "FILL" 1;
+    color: var(--subject-color);
   }
 }

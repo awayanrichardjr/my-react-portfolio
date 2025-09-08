@@ -1,26 +1,92 @@
 .header {
-  height: 100vh;
+  min-height: 100vh;
   padding: 2rem;
 
   display: flex;
-  flex-flow: column nowrap;
-  align-items: start;
+  flex-flow: row wrap;
+  align-items: center;
   justify-content: center;
+  gap: 1rem;
 
-  /* buttons */
+  .container {
+    /* background-color: red; */
+    aspect-ratio: 1/1;
+    width: 500px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .container :where(.profile-pic) {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 400px;
+
+    border-radius: 8px;
+  }
+  .center-img {
+    display: grid;
+    place-content: center;
+  }
+  .introduction {
+    font-size: 4rem;
+    /* line-height: 5rem; */
+  }
+  .profession {
+    /* font-weight: 600; */
+  }
+
   .buttons {
     display: flex;
-    gap: 1rem;
+    gap: 8px;
   }
-  .buttons :where(.about-me) {
-    padding: 0.5rem;
-  }
-  .buttons :where(.download-cv) a {
+  .about-me-btn {
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.3rem;
+    gap: 8px;
+  }
 
-    padding: 0.5rem;
+  .about-me-btn:hover {
+    background-color: var(--border-color);
+    color: var(--text-color-reverse);
+  }
+  .download-btn {
+    border: none;
+  }
+
+  .download-btn:hover a {
+    background-color: var(--border-color);
+    border-color: var(--border-color);
+    color: var(--text-color-reverse);
+  }
+  .download-btn > a {
+    padding: 8px;
+    color: var(--text-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    border-radius: 4px;
+    background-color: var(--subject-color);
+    border: 1px solid var(--subject-color);
+    color: var(--download-btn-text-color);
+  }
+
+  button {
+    transition: 0.2s;
+  }
+  button:hover {
+    transform: translateY(-3px);
   }
 }

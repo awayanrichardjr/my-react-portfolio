@@ -14,7 +14,8 @@
   .container :where(img) {
     aspect-ratio: 1/1;
     width: 350px;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 0.5rem;
   }
   .container :where(.profile-name) {
     width: 500px;
