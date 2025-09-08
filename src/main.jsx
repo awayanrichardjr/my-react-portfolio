@@ -12,6 +12,7 @@ import "./style/global/fonts.css";
 import Nav from "./components/nav/App.jsx";
 import Header from "./components/header/App.jsx";
 import About from "./components/about/App.jsx";
+import Skills from "./components/skills/App.jsx";
 import Expertise from "./components/expertise/App.jsx";
 import Project from "./components/project/App.jsx";
 import Contact from "./components/contact/App.jsx";
@@ -22,6 +23,7 @@ const view = (
     <Nav />
     <Header />
     <About />
+    <Skills />
     <Expertise />
     <Project />
     <Contact />

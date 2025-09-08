@@ -1,0 +1,10 @@
+.template {
+  min-height: 100vh;
+  padding: 2rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}

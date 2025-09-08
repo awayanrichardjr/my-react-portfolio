@@ -1,0 +1,23 @@
+.skills {
+  min-height: 100vh;
+  padding: 2rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills :where(.container) {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.skills :where(.container) .skills-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+.skills :where(.container) .skills-list > li > img {
+  aspect-ratio: 1/1;
+  width: 100px;
+  object-fit: contain;
+}

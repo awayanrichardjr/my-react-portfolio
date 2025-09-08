@@ -20,6 +20,9 @@ function App() {
             <a href="#about">About</a>
           </li>
           <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
             <a href="#expertise">Expertise</a>
           </li>
           <li>
