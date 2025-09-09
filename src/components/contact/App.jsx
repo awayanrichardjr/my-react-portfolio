@@ -36,13 +36,27 @@ function App() {
             <li>
               <span className="material-symbols-rounded">email</span>
               <p>
-                <address>awayanrichardjr@gmail.com</address>
+                <address>
+                  <a href="mailto:awayanrichardjr@gmail.com?subject=Hello?body=Hardric%20at%20your%20service.%20Message%20here...?cc=richarddumaelawayanjr@gmail.com">
+                    awayanrichardjr@gmail.com
+                  </a>
+                </address>
               </p>
             </li>
             <li>
               <span className="material-symbols-rounded">call</span>
               <p>
-                <address>0906-587-6602</address>
+                <address>
+                  <a href="tel:+639065876602">Call us 0906-587-6602</a>
+                </address>
+              </p>
+            </li>
+            <li>
+              <span className="material-symbols-rounded">call</span>
+              <p>
+                <address>
+                  <a href="sms:+639065876602">Message us 0906-587-6602</a>
+                </address>
               </p>
             </li>
           </ul>

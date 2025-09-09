@@ -18,7 +18,7 @@
 }
 .skills :where(.container) .skills-list > li > img {
   aspect-ratio: 1/1;
-  width: 100px;
+  width: clamp(1rem, 10vw, 6.25rem);
   object-fit: contain;
 }
 

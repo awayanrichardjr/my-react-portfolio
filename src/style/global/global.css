@@ -69,12 +69,14 @@ h1 {
   font-weight: normal;
   line-height: normal;
 }
-p {
+p,
+label {
   font-size: clamp(1px, 8vw, 1rem);
   font-weight: normal;
   line-height: normal;
 }
 
+/* animation on view */
 .about,
 .contact,
 .expertise,
