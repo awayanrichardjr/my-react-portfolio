@@ -3,15 +3,11 @@
   align-items: center;
   justify-content: space-between;
 
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
   z-index: 1000;
 
   background-color: var(--bg-color);
 
-  /* a */
+  /* ? a */
   a {
     display: flex;
     align-items: center;
@@ -20,7 +16,7 @@
     padding: 1rem 2rem;
   }
 
-  /* links */
+  /* ? links */
   .links {
     display: flex;
     align-items: center;

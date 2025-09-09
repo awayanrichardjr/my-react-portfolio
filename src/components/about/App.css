@@ -16,14 +16,44 @@
   }
   .container :where(img) {
     aspect-ratio: 1/1;
-    width: 350px;
+    width: clamp(100px, 90vw, 350px);
     object-fit: cover;
     border-radius: 0.5rem;
 
     box-shadow: var(--map-box-shadow);
   }
+
+  /* ? profile name */
   .container :where(.profile-name) {
-    width: 500px;
+    width: clamp(100px, 90vw, 500px);
     padding: 1rem;
+
+    /* .full-name {
+      font-size: clamp(1rem, 8vw, 2rem);
+    } */
+    /* .profession {
+      font-size: clamp(1rem, 8vw, 1rem);
+    } */
+    .description {
+      color: grey;
+      text-indent: 2rem;
+      text-align: justify;
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .about :where(.profile-name) {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    .full-name,
+    profession {
+      text-align: center;
+    }
+    .description {
+    }
   }
 }

@@ -29,15 +29,21 @@ function App() {
           <ul className="contact-details">
             <li>
               <span className="material-symbols-rounded">location_on</span>
-              <p>Davao City, 8000, Philippines</p>
+              <p>
+                <address>Davao City, 8000, Philippines</address>
+              </p>
             </li>
             <li>
               <span className="material-symbols-rounded">email</span>
-              <p>awayanrichardjr@gmail.com</p>
+              <p>
+                <address>awayanrichardjr@gmail.com</address>
+              </p>
             </li>
             <li>
               <span className="material-symbols-rounded">call</span>
-              <p>0906-587-6602</p>
+              <p>
+                <address>0906-587-6602</address>
+              </p>
             </li>
           </ul>
           {/**

@@ -24,10 +24,14 @@ function App() {
            */}
           <h5 className="introduction">Hi, I am Richard.</h5>
           <h5 className="profession">Frontend Developer</h5>
+          <br />
           <p className="description">
-            I am a passionate and detail-oriented Front-End Developer who builds
-            and optimizes responsive web applications for exceptional user
-            experiences. Proficient in modern web technologies and frameworks
+            <q>
+              I am a passionate and detail-oriented Front-End Developer who
+              builds and optimizes responsive web applications for exceptional
+              user experiences. Proficient in modern web technologies and
+              frameworks
+            </q>
           </p>
           <br />
 
