@@ -5,6 +5,15 @@ function App() {
   return (
     <>
       <section className="header" id="home">
+        {/**
+         * container
+         *
+         * shows the profile picture image.
+         */}
+        <div className="container center-img">
+          <img className="profile-pic" src={profilePic} alt="" />
+        </div>
+
         {/* container */}
         <div className="container">
           {/**
@@ -13,15 +22,12 @@ function App() {
            *
            * shows the introduction of self and descriptions.
            */}
-          <h5 className="introduction">
-            Hi there! <br /> I am Richard
-          </h5>
+          <h5 className="introduction">Hi, I am Richard.</h5>
           <h5 className="profession">Frontend Developer</h5>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-            tenetur? Qui expedita modi similique odio iusto aut magnam
-            explicabo, nobis voluptate, quos illo molestias? Tempore hic
-            incidunt fuga vero. Dignissimos.
+            I am a passionate and detail-oriented Front-End Developer who builds
+            and optimizes responsive web applications for exceptional user
+            experiences. Proficient in modern web technologies and frameworks
           </p>
           <br />
 
@@ -43,15 +49,6 @@ function App() {
               </a>
             </button>
           </div>
-        </div>
-
-        {/**
-         * container
-         *
-         * shows the profile picture image.
-         */}
-        <div className="container center-img">
-          <img className="profile-pic" src={profilePic} alt="" />
         </div>
       </section>
     </>

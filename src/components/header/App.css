@@ -1,46 +1,55 @@
 .header {
   min-height: 100vh;
   padding: 2rem;
+  /* padding-top: 10rem; */
 
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row-reverse wrap;
   align-items: center;
   justify-content: center;
   gap: 1rem;
 
   .container {
-    /* background-color: red; */
-    aspect-ratio: 1/1;
-    width: 500px;
+    max-width: 500px;
 
     display: flex;
     flex-flow: column nowrap;
     align-items: start;
     justify-content: center;
+
+    /* background-color: red; */
   }
 
-  .container :where(.description) {
+  .description {
     color: grey;
   }
-  .container :where(.profile-pic) {
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    width: 400px;
 
-    border-radius: 8px;
+  /* ? profile pic */
+  .profile-pic {
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    width: clamp(100px, 30vw, 400px);
+    height: auto;
+
+    border-radius: 50%;
     box-shadow: var(--map-box-shadow);
   }
+
   .center-img {
     display: grid;
     place-content: center;
   }
+
   .introduction {
-    font-size: 4rem;
+    font-size: clamp(1rem, 8vw, 4rem);
+    font-weight: 500;
+  }
+  /* ? .greeting, */
+  .profession {
+    font-size: clamp(1rem, 4vw, 2rem);
   }
 
-  /* .profession {} */
-
-  /* buttons */
+  /* ? buttons */
   .buttons {
     display: flex;
     gap: 8px;

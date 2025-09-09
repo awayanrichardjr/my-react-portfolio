@@ -26,11 +26,13 @@ li {
 a {
   text-decoration: none;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 button {
   cursor: pointer;
   transition: 0.2s;
+  white-space: nowrap;
 }
 button:hover {
   transform: translateY(-3px);

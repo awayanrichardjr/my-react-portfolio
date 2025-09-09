@@ -22,12 +22,12 @@ const view = (
   <StrictMode>
     <Nav />
     <Header />
-    <About />
+    {/* <About />
     <Skills />
     <Expertise />
     <Project />
     <Contact />
-    <Footer />
+    <Footer /> */}
   </StrictMode>
 );
 

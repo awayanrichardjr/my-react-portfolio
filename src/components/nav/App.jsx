@@ -14,6 +14,13 @@ function App() {
             </a>
           </li>
         </ul>
+
+        {/**
+         *
+         *
+         *
+         * navigation links
+         */}
         <ul className="links">
           <li>
             <a href="#home">Home</a>
