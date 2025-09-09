@@ -47,16 +47,16 @@ function App() {
               <span className="material-symbols-rounded">call</span>
               <p>
                 <address>
-                  <a href="tel:+639065876602">Call us 0906-587-6602</a>
+                  <a href="tel:+639065876602">Call me: 0906-587-6602</a>
                 </address>
               </p>
             </li>
             <li>
-              <span className="material-symbols-rounded">call</span>
+              <span className="material-symbols-rounded">sms</span>
               <p>
                 <address>
-                  <a href="sms:+639065876602?body=Hello%20there!">
-                    Message us 0906-587-6602
+                  <a href="sms:+639065876602?body=Hardric%20at%20your%20service.%20Message%20here...">
+                    Text me: 0906-587-6602
                   </a>
                 </address>
               </p>
