@@ -37,7 +37,13 @@ function App() {
               <span className="material-symbols-rounded">email</span>
               <p>
                 <address>
-                  <a href="mailto:awayanrichardjr@gmail.com?subject=Hello?body=Hardric%20at%20your%20service.%20Message%20here...?cc=richarddumaelawayanjr@gmail.com">
+                  {/**
+                   *
+                   *
+                   *
+                   * a link that the sender can send n email message to the receiver.
+                   *  */}
+                  <a href="mailto:awayanrichardjr@gmail.com??cc=richarddumaelawayanjr@gmail.comsubject=Hello?body=Hardric%20at%20your%20service.%20Message%20here...">
                     awayanrichardjr@gmail.com
                   </a>
                 </address>
