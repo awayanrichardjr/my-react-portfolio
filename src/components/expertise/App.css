@@ -21,6 +21,9 @@
 
 .expertise :where(table) tbody {
   display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 .expertise :where(table) td {
@@ -31,7 +34,7 @@
   border: 1px solid var(--border-color);
   border-radius: 0.5rem;
 
-  width: 300px;
+  width: clamp(100px, 90vw, 300px);
 
   .description {
     color: grey;

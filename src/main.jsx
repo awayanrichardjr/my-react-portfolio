@@ -1,7 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-// import './style/index.css'
+// import "./style/index.css";
+// import "./style/tailwind.css";
 import "./style/global/global.css";
 import "./style/global/root.css";
 import "./style/global/fonts.css";
@@ -24,8 +25,8 @@ const view = (
     <Header />
     <About />
     <Skills />
-    {/* <Expertise /> */}
-    {/* <Project /> */}
+    <Expertise />
+    <Project />
     <Contact />
     <Footer />
   </StrictMode>

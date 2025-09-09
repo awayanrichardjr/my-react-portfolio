@@ -47,7 +47,10 @@ function App() {
               </a>
             </button>
             <button className="download-btn">
-              <a href="#">
+              <a
+                href="https://drive.google.com/uc?export=download&id=1Eq5gi_scvnn4po6PWAlnaXPLu-1mq17Q"
+                download
+              >
                 <span className="material-symbols-rounded">download</span>
                 <p>Download CV</p>
               </a>

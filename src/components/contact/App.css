@@ -9,7 +9,7 @@
   gap: 1rem;
 }
 
-/* container */
+/* ? container */
 .contact :where(.container) {
   display: flex;
   flex-flow: row-reverse wrap;
@@ -18,7 +18,7 @@
   gap: 1rem;
 }
 
-/* contact details */
+/* ? contact details */
 .contact :where(.contact-details) {
   display: flex;
   flex-flow: column nowrap;
@@ -29,12 +29,16 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  a:hover {
+    color: var(--subject-color);
+    text-decoration: underline;
+  }
 }
 
-/* map */
+/* ? map */
 .contact :where(.map) {
+  width: clamp(100px, 90vw, 500px);
   height: 300px;
-  width: 500px;
   border: none;
   box-shadow: var(--map-box-shadow);
 }
