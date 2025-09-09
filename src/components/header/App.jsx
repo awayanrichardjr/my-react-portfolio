@@ -11,7 +11,7 @@ function App() {
          * shows the profile picture image.
          */}
         <div className="container center-img">
-          <img className="profile-pic" src={profilePic} alt="" />
+          <img className="profile-pic" src={profilePic} alt="profile picture" />
         </div>
 
         {/* container */}

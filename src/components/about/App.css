@@ -8,6 +8,8 @@
   justify-content: center;
   gap: 1rem;
 
+  @apply transition-transform;
+
   .container {
     display: flex;
     flex-flow: row wrap;
@@ -21,6 +23,10 @@
     border-radius: 0.5rem;
 
     box-shadow: var(--map-box-shadow);
+    transition: 0.2s;
+  }
+  .container :where(img):hover {
+    @apply rotate-x-10 rotate-y-25 -rotate-z-5;
   }
 
   /* ? profile name */
