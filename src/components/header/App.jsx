@@ -5,7 +5,14 @@ function App() {
   return (
     <>
       <section className="header" id="home">
+        {/* container */}
         <div className="container">
+          {/**
+           *
+           *
+           *
+           * shows the introduction of self and descriptions.
+           */}
           <h5 className="introduction">
             Hi there! <br /> I am Richard
           </h5>
@@ -17,6 +24,12 @@ function App() {
             incidunt fuga vero. Dignissimos.
           </p>
           <br />
+
+          {/**
+           *
+           *
+           * shows about and download button.
+           */}
           <div className="buttons">
             <button className="about-me-btn">
               <a href="#about">
@@ -31,6 +44,12 @@ function App() {
             </button>
           </div>
         </div>
+
+        {/**
+         * container
+         *
+         * shows the profile picture image.
+         */}
         <div className="container center-img">
           <img className="profile-pic" src={profilePic} alt="" />
         </div>

@@ -19,6 +19,8 @@
     width: 350px;
     object-fit: cover;
     border-radius: 0.5rem;
+
+    box-shadow: var(--map-box-shadow);
   }
   .container :where(.profile-name) {
     width: 500px;
