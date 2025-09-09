@@ -27,10 +27,8 @@ function App() {
           <br />
           <p className="description">
             <q>
-              I am a passionate and detail-oriented Front-End Developer who
-              builds and optimizes responsive web applications for exceptional
-              user experiences. Proficient in modern web technologies and
-              frameworks
+              I am a Frontend Developer passionate about creating clean,
+              responsive, and user-friendly websites...
             </q>
           </p>
           <br />

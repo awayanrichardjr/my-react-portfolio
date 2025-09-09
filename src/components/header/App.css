@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .header {
   min-height: 100vh;
   padding: 2rem;
@@ -15,8 +17,6 @@
     flex-flow: column nowrap;
     align-items: start;
     justify-content: center;
-
-    /* background-color: red; */
   }
 
   .description {
@@ -29,8 +29,8 @@
   .profile-pic {
     aspect-ratio: 1/1;
     object-fit: contain;
-    width: clamp(100px, 80vw, 400px);
     height: auto;
+    width: clamp(100px, 80vw, 400px);
 
     border-radius: 50%;
     box-shadow: var(--map-box-shadow);

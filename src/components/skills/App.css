@@ -6,6 +6,11 @@
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+
+  h5 {
+    text-align: center;
+  }
 }
 
 .skills :where(.container) {
@@ -15,6 +20,9 @@
 .skills :where(.container) .skills-list {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 .skills :where(.container) .skills-list > li > img {
   aspect-ratio: 1/1;

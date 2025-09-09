@@ -7,7 +7,7 @@ function App() {
         <ul className="logo">
           <li>
             <a href="#home">
-              <h6>
+              <h6 className="uncial-antiqua-regular">
                 HARDRIC<b>.</b>
               </h6>
             </a>

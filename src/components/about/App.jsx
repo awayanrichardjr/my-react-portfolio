@@ -33,24 +33,15 @@ function App() {
             <br />
             <p className="description">
               <q>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Suscipit, laborum maxime dolores repellat quasi ipsa quae quos
-                odio inventore culpa nam fugit quaerat ducimus nihil officiis
-                obcaecati! Dicta, molestias sapiente?
-              </q>
-            </p>
-            <p className="description">
-              <q>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-                incidunt.
-              </q>
-            </p>
-            <p className="description">
-              <q>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Officia reprehenderit ipsum, dicta culpa amet error reiciendis
-                pariatur saepe excepturi, nulla vitae, vel tempora quis. Minus
-                repellat excepturi ipsam esse id.
+                I am a Frontend Developer passionate about creating clean,
+                responsive, and user-friendly websites. I specialize in building
+                portfolio websites, browsing platforms, and modern responsive
+                layouts that work seamlessly across devices. Currently, I focus
+                on developing website designs provided by designers, turning
+                static visuals into fully functional and interactive web
+                experiences. With a strong emphasis on detail, performance, and
+                usability, I aim to deliver websites that are both visually
+                appealing and highly effective.
               </q>
             </p>
           </div>
