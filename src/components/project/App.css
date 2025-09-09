@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .project {
   min-height: 100vh;
   padding: 2rem;
@@ -5,4 +7,45 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.project :where(table) {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  border-collapse: collapse;
+}
+.project :where(thead) {
+}
+.project :where(tbody) {
+}
+.project :where(tr) {
+}
+.project :where(th) {
+}
+.project :where(td) {
+  @apply flex flex-col gap-4;
+  @apply rounded-xl p-4 w-96;
+  box-shadow: var(--map-box-shadow);
+  background-color: var(--secondary-color);
+
+  .container {
+    @apply flex justify-between items-center gap-4;
+    a {
+      @apply flex justify-between items-center gap-2;
+    }
+    label {
+      @apply text-red-700 p-2 rounded-xs border border-red-700;
+      background-color: rgba(225, 0, 0, 0.1);
+    }
+    .github-link {
+      @apply w-8 rounded-4xl bg-white p-0;
+    }
+  }
+  .skills-applied {
+    @apply flex flex-wrap justify-start items-center gap-2;
+  }
 }

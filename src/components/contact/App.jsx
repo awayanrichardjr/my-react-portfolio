@@ -41,7 +41,7 @@ function App() {
                    *
                    *
                    *
-                   * a link that the sender can send n email message to the receiver.
+                   * a link that the sender can send an email message to the receiver.
                    *  */}
                   <a href="mailto:awayanrichardjr@gmail.com?cc=richarddumaelawayanjr@gmail.com">
                     awayanrichardjr@gmail.com
